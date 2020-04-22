@@ -86,7 +86,9 @@ In the terminal app of preference, the following commands need to be entered.
     ```
     
 4. Move into the project directory on your machine and run the package server
-
+    ```
+    cd ARApp
+    ```
     From the root of the above project achieved by the above command, run the following command
     ```
     npm start
