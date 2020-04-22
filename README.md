@@ -1,5 +1,7 @@
-# Augmented Reality Experience App - Documentation
+# Augmented Reality Experience App - Documentation - Mac/Linux Version
 First fully developed protoype of this app bringing a connection between Augmented Reality and social immersion. 
+
+This repository is for running the application on a Mac/Linux Computer **ONLY**. The repository for the running the application on a Windows Computer can be found at: https://github.com/michaeloconn98/ARAppWindows 
 
 ### About 
 This application hopes to provide a reference to the social value that can be gained from interactive technologies. In particular this application focuses on implementing basic Augmented Reality features into an interactive environment. 
@@ -27,9 +29,11 @@ On this device the following app needs to be installed on the device in question
 * Android
   * [Viro Media App](https://play.google.com/store/apps/details?id=com.viromedia.viromedia)
 
-The penultimate step is to fetch the project directory and save it to your home directory. Either via cloning this repository or fetching the main folder from saved location.
+The penultimate step is to fetch the project directory and save it to your home directory. Either via cloning this repository or fetching the main folder from a saved location.
 
-Finally, to start the application up for it to be ran on your mobile device you need to run the application on an OSX (Mac), Linux or Windows computer. 
+Make sure all these steps are completed before continuing.
+
+To start the application up for it to be ran on your mobile device you need to run the application on an OSX (Mac), Linux or Windows computer. The following steps detail how to do this and more.
 
 ### Installation
 In the terminal app of preference, the following commands need to be entered. 
@@ -83,49 +87,16 @@ In the terminal app of preference, the following commands need to be entered.
     
 4. Move into the project directory on your machine and run the package server
 
-    From the root of the project directory , run the command below in terminal to start the application.
+    From the root of the above project achieved by the above command, run the following command
     ```
     npm start
     ```
     
-#### Windows
-
-1. Install Node and the React Native CLI
-    1. Install Homebrew by running the following command in Administrator Command Prompt: Node, Python2, JDK 
-    ```
-    choco install -y nodejs.install python2 jdk8
-    ```
-    2. React Native CLI
-    
-    Install React Native CLI by running the following command in the command prompt:
-    ```
-    npx react-native 
-    ```
-    
-2. Add a Dependency on React Viro
-
-    Run the following commands in Powershell
-    ```
-    cd ARApp
-    npm install -S -E react-viro
-    ```
-    1. Copy Files from React Viro
-    Copy the files from ``node_modules\react-viro\bin\files\javascript\*`` to the root of the ARApp directory.
-    
-        This should override the index.js and App.js files and add metro.config.js, rn-cli.config.js and a js/ directory in the project.
-        
-3. From the root of the project directory , run the command below in terminal to start the application.
-    ```
-    npm start
-    ```
-  
 ### Running the Application
 To run the application on your mobile device simply open up the Viro Media App and enter the testbed via the menu icon in the top left of the screen.
 
 To run the application:
 * On OSX/Linux simply enter the ngrok url provided via the ``npm start``command, into the input box on the Viro Media App.
-
-* On Windows enter your computers IP Address, into the input box on the Viro Media App.
 
 Once 'Go' is pressed on the Viro Media App, this application will load up within the testbed.
 
@@ -152,7 +123,6 @@ The 3D object shown in the first screen can be interacted with via a simple drag
 
 ### Useful Resources
 * For information on the platform [Viro Media](https://docs.viromedia.com/docs/viro-platform-overview) refer to this link.
-* If you get issues with building the application on a Windows PC refer to this [link](http://reactnative.dev/docs/environment-setup).
 * To contact myself please contact me on michael.oconn@hotmail.co.uk
 
 ### Credits
