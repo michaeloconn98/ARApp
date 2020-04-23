@@ -1,7 +1,7 @@
 # Augmented Reality Experience App - Documentation - Mac/Linux Version
 First fully developed protoype of this app bringing a connection between Augmented Reality and social immersion. 
 
-This repository is for running the application on a Mac/Linux Computer **ONLY**. The repository for the running the application on a Windows Computer can be found at: https://github.com/michaeloconn98/ARAppWindows 
+This repository is for running the application on a Mac/Linux PC **ONLY**. The repository for the running the application on a Windows PC can be found at: https://github.com/michaeloconn98/ARAppWindows 
 
 ### About 
 This application hopes to provide a reference to the social value that can be gained from interactive technologies. In particular this application focuses on implementing basic Augmented Reality features into an interactive environment. 
@@ -33,7 +33,8 @@ The penultimate step is to fetch the project directory and save it to your home 
 
 Make sure all these steps are completed before continuing.
 
-To start the application up for it to be ran on your mobile device you need to run the application on an OSX (Mac), Linux or Windows computer. The following steps detail how to do this and more.
+To start the application up for it to be ran on your mobile device you need to run the application on an OSX(Mac)
+or Linux PC. The following steps detail how to do this and more.
 
 ### Installation
 In the terminal app of preference, the following commands need to be entered. 
@@ -98,7 +99,7 @@ In the terminal app of preference, the following commands need to be entered.
 To run the application on your mobile device simply open up the Viro Media App and enter the testbed via the menu icon in the top left of the screen.
 
 To run the application:
-* On OSX/Linux simply enter the ngrok url provided via the ``npm start``command, into the input box on the Viro Media App.
+* On OSX/Linux simply enter the ngrok URL provided via the ``npm start``command, into the input box on the Viro Media App.
 
 Once 'Go' is pressed on the Viro Media App, this application will load up within the testbed.
 
