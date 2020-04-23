@@ -118,7 +118,7 @@ The 3D object shown in the first screen can be interacted with via a simple drag
 
 **Having issues?**
 
-**If there are any issues loading the scene, try shaking the device until a development menu appears and hit "Reload". If the app is being used on an iOS device double-check that the ngrok URL entered was correct or try using the local IP address of computer in use (the mobile device will need to be on the same network).**
+**If there are any issues loading the scene, try shaking the device until a development menu appears and hit "Reload". If the app is being used on an iOS device double-check that the ngrok URL entered was correct or try using the local IP address of PC in use (the mobile device will need to be on the same network).**
 
 ### Notes
 * At this stage it should be acknowledged that this application is a prototype and is not the finished article.
